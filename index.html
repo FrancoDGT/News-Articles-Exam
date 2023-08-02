@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Articles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>News Articles</h1>
+    <div class="toolbar">
+        <div class="select-all-btn">
+            <input id="selectAllCheckbox" class="form-check-input mt-0" type="checkbox" value="">
+        </div>
+        <button type="button" class="publish-btn" id="publish">Publish</button>
+        <button type="submit" class="delete-btn" id="delete" onclick="removeCheckedCheckboxes()">Delete</button>
+        <input type="text" id="search" placeholder="Search ...">
+    </div>
+
+    <!--MODAL HANDLER-->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title">
+                    <div id="modalTitle"></div>
+                </div>
+                <div class="close-container">
+                    <span class="close" onclick="closeModal()">&times;</span>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="modal-author-date">
+                    <div id="modalAuthor"></div>
+                    <span id="divider">&nbsp;|&nbsp;&nbsp;</span>
+                    <div id="modalDate"></div>
+                </div>
+                <div id="fullContent"></div>
+                <div id="modal-buttons">
+                    <button type="button" class="publish-btn" id="publish-modal">Publish</button>
+                    <button type="submit" class="delete-btn" id="delete-modal">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CARD CONTAINER-->
+    <div id="cardContainer"></div>
+
+    <!--SCRIPTS-->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
