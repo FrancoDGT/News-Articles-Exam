@@ -17,4 +17,4 @@ Added feature (not asked):
 1. Cards can be dragged and rearranged corresponding to the user preference/priority.
 2. Can select all the articles.
 
-*Thank you for considering my application, and being the first one to check on me. I'll be glad to hear from you soon and even to be part of the family (hopefully).*
+*Thank you for considering my application, and being the first one to check on me. I'll be glad to hear from you soon and even to be part of the team (hopefully).*
