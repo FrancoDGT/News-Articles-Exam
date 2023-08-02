@@ -1,7 +1,7 @@
 # Franco de Guzman-FrontendDev-Exam
 
 ## Description
-Good day! This is the News Article WebPage I made in HTML, CSS, and JavaScript. It allows the users to read articles and can perform publish (not meet), delete and search actions (not meet). As far as I know, I did every requirement I was asked to do. I was also able to make the card draggable where you can arrange it depends on your priority or preference and also I even added the select all checkbox that is in line with the Publish and Delete buttons.
+Good day! This is the News Article WebPage I made in HTML, CSS, and JavaScript. It allows the users to read articles and can perform publish (not meet), delete (met) and search actions (not meet). As far as I know, I did every requirement I was asked to do. I was also able to make the card draggable where you can arrange it depends on your priority or preference and also I even added the select all checkbox that is in line with the Publish and Delete buttons.
 
 ## Functionalities (In bullet form)
 These are the requirements/features I met:
