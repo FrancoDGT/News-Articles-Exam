@@ -1,4 +1,4 @@
-# Franco de Guzman-FrontendDev-Exam
+# Franco de Guzman-News-Article-Activity
 
 ## Description
 Good day! This is the News Article WebPage I made in HTML, CSS, and JavaScript. It allows the users to read articles and can perform publish (not meet), delete (met) and search actions (not meet). As far as I know, I did every requirement I was asked to do. I was also able to make the card draggable where you can arrange it depends on your priority or preference and also I even added the select all checkbox that is in line with the Publish and Delete buttons.
@@ -17,4 +17,4 @@ Added feature (not asked):
 1. Cards can be dragged and rearranged corresponding to the user preference/priority.
 2. Can select all the articles.
 
-*Thank you for considering my application, and being the first one to check on me. I'll be glad to hear from you soon and even to be part of the team (hopefully).*
+*Thank you for considering my application. I'll be glad to hear from you soon and even to be part of the team (hopefully).*
